@@ -1,4 +1,4 @@
-Gerenciador de Produtos
+## Gerenciador de Produtos
 
 O Gerenciador de Produtos é uma aplicação web desenvolvida em React.js que oferece funcionalidades para gerenciamento de fornecedores, produtos e clientes. Com este sistema, os usuários podem facilmente adicionar, editar, listar e excluir registros de fornecedores, produtos e clientes.
 Funcionalidades Principais
