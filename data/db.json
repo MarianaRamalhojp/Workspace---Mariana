@@ -1,0 +1,139 @@
+{
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "Tio João LTDA",
+      "email": "sac@tiojoao.com.br",
+      "cnpj": "00.331.252/0001-02"
+    },
+    {
+      "id": "2",
+      "name": "Guaraves LTDA",
+      "email": "sac@guaraves.com.br",
+      "cnpj": "00.351.562./0001-03"
+    },
+    {
+      "id": "3",
+      "name": "Urbano S/A",
+      "cnpj": "00.345.112/0001-01",
+      "email": "sac@urbano.com.br"
+    },
+    {
+      "name": "Apple",
+      "cnpj": "00.222.111/4444-78",
+      "email": "sac@apple.com",
+      "id": "tqBpQ9M"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Produto X",
+      "price": 100,
+      "supplierId": "3"
+    },
+    {
+      "id": "2",
+      "name": "Produto Y",
+      "price": 3000,
+      "supplierId": 2
+    },
+    {
+      "id": "3",
+      "name": "Produto Z",
+      "price": 10000,
+      "supplierId": 3
+    },
+    {
+      "name": "Teclado",
+      "price": "30",
+      "supplierId": "2",
+      "id": "kbJnLcc"
+    },
+    {
+      "name": "Arroz",
+      "price": "10",
+      "supplierId": "1",
+      "id": "83s5-xL"
+    },
+    {
+      "name": "MacBook",
+      "price": "30000",
+      "supplierId": "tqBpQ9M",
+      "id": "qyabtdQ"
+    },
+    {
+      "name": "Arroz Tio João",
+      "price": "12",
+      "supplierId": "1",
+      "id": "BVBxgUE"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "João Silva 2",
+      "cpf": "123.123.123-12",
+      "email": "joao@gmail.com",
+      "zipcode": "55555-555",
+      "street": "Rua de Teste",
+      "number": "105",
+      "neighborhood": "Mangabeira",
+      "city": "João Pessoa",
+      "state": "Paraíba",
+      "country": "Brasil"
+    },
+    {
+      "name": "Zezinho",
+      "cpf": "011458666-85",
+      "email": "zezin@gmail.com",
+      "zipcode": "58079000",
+      "street": "Rua Josefa Miranda Freire",
+      "number": "105",
+      "neighborhood": "Jardim Oceania",
+      "city": "João Pessoa",
+      "state": "Paraíba",
+      "country": "Brasil",
+      "id": 2
+    },
+    {
+      "name": "Mariana Ramalho",
+      "cpf": "041.582.674-80",
+      "email": "marianajp@hotmail.com",
+      "zipcode": "58040630",
+      "street": "Rua Conselheiro Odilon do Egito",
+      "number": "15",
+      "neighborhood": "Torre",
+      "city": "João Pessoa",
+      "state": "PB",
+      "country": "Brasil",
+      "id": 3
+    },
+    {
+      "name": "RODRIGO CESAR MARTINS BRASILEIRO GUEDES",
+      "cpf": "06504463484",
+      "email": "rodrigocesarmbg1@gmail.com",
+      "zipcode": "58046140",
+      "street": "Rua Severino Ennes de Atayde",
+      "number": "302",
+      "neighborhood": "Altiplano Cabo Branco",
+      "city": "João Pessoa",
+      "state": "PB",
+      "country": "Brasil",
+      "id": 4
+    },
+    {
+      "name": "Nanci de Almeida",
+      "cpf": "11155544477787",
+      "email": "nanci@gmail.com",
+      "zipcode": "58042040",
+      "street": "Rua José Florentino Júnior",
+      "number": "501",
+      "neighborhood": "Tambauzinho",
+      "city": "João Pessoa",
+      "state": "PB",
+      "country": "Brasil",
+      "id": 5
+    }
+  ]
+}

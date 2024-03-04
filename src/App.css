@@ -1,0 +1,197 @@
+/* Estilos gerais */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu principal */
+.menu {
+  background-color: #276cac;
+  color: white;
+  padding: 10px 0;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center; /* Alinha os itens horizontalmente */
+  align-items: center;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  transition: background-color 0.3s ease-in-out;
+  padding: 10px 20px;
+  margin: 0 10px; /* Adiciona margem horizontal entre os itens do menu */
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  background-color: #275688;
+  border-radius: 10px;
+}
+
+.submenu {
+  position: relative;
+  margin: 0 20px; /* Adiciona margem horizontal entre os submenus */
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+.submenu:hover .submenu-content {
+  display:inherit;
+}
+
+.submenu-content a {
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: grid;
+
+}
+
+.submenu-content a:hover {
+  background-color: #a8c4dd;
+  border-radius: 5px;
+}
+
+.submenu span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.submenu span::after {
+  content: '▼'; /* Setar um ícone de seta para baixo */
+  margin-left: 5px;
+}
+
+.submenu-content.show {
+  display: block;
+}
+
+/* Container principal */
+.container {
+  margin: 40px auto;
+  max-width: 90vw;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* Tabela */
+.table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #3680c5;
+  color: white;
+  font-size: 18px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table td button {
+  margin-right: 5px;
+}
+
+/* Botões */
+.btn {
+  cursor: pointer;
+  padding: 8px 15px;
+  border: 2px;
+  border-radius: 5px;
+  color: rgb(231, 224, 224);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #3672b3;
+
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: black
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn:hover, .btn:focus {
+  opacity: 0.85;
+}
+
+/* Formulários */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea, .form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Grupos de entrada */
+.input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"],
+.input-group select {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input-group button {
+  white-space: nowrap;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+color: #555;
+font-size: 20px;
+margin-bottom: 10px;
+}
