@@ -10,9 +10,9 @@ _O Gerenciador de Produtos é uma aplicação web desenvolvida em React.js que o
 
 **Tecnologias Utilizadas**
 
-    >React: A aplicação foi desenvolvida utilizando o framework React.js, que proporciona uma experiência de desenvolvimento ágil e eficiente.
-    >React Router: Para gerenciar a navegação entre páginas, foi utilizado o React Router, uma biblioteca que permite a criação de rotas dinâmicas na aplicação.
-    >Bootstrap: O Bootstrap foi utilizado para estilizar os componentes da interface de usuário, garantindo um design responsivo e moderno.
+    > React: A aplicação foi desenvolvida utilizando o framework React.js, que proporciona uma experiência de desenvolvimento ágil e eficiente.
+    > React Router: Para gerenciar a navegação entre páginas, foi utilizado o React Router, uma biblioteca que permite a criação de rotas dinâmicas na aplicação.
+    > Bootstrap: O Bootstrap foi utilizado para estilizar os componentes da interface de usuário, garantindo um design responsivo e moderno.
 
 **Como Executar o Projeto**
 
