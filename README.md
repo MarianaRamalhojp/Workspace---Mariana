@@ -26,5 +26,5 @@ _O Gerenciador de Produtos é uma aplicação web desenvolvida em React.js que o
 Contribuições são bem-vindas! Se você identificou algum problema ou deseja propor melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 Licença
 
-![Tela](Workspace---Mariana/tela.jpeg)
+![Tela](Workspace---Mariana/tela.jpg)
 
